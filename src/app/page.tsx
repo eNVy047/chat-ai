@@ -47,9 +47,13 @@ export default async function Home() {
             Your AI powered sales assistant! Embed Corinna AI into any website
             with just a snippet of code!
           </p>
-          <Button className="bg-orange font-bold text-white px-4">
-            Start For Free
-          </Button>
+        
+          <Link
+            href="/dashboard"
+            className="bg-orange px-4 py-2 rounded-sm text-white"
+          >
+           Start For Free
+          </Link>
           <Image
             src="/images/iphonecorinna.png"
             width={400}
